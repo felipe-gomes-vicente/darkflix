@@ -1,0 +1,15 @@
+:root {
+  --dark-black: #141414;
+  --dark-red: #E50914;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--dark-black);
+  font-family: 'Times New Roman', times, serif;
+}
