@@ -46,7 +46,7 @@ header nav a:hover {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/capa.jpg');
   
-  height: 560px;
+  height: 34rem;
   background-size: cover;
 
   display: flex;
@@ -57,11 +57,11 @@ header nav a:hover {
 
 .filme-principal .descricao {
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 1.5rem;
 }
 
 .filme-principal .titulo {
-  margin-top: 300px;
+  margin-top: 20rem;
   font-size: 40px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -93,7 +93,7 @@ header nav a:hover {
 }
 
 .filme-principal .container {
-  width: 70%;
+  width: 90%;
 }
 
 .box-filme {
@@ -103,8 +103,22 @@ header nav a:hover {
 }
 
 .carrosel-filmes {
-  margin-top: 5px;
+  margin-top: 70px;
 }
+
+.carrosel-filmes h3 {
+  margin: 10px;
+  font-size: 30px;
+}
+
+footer {
+  display: flex;
+  padding: 10px;
+  background-color: var(--dark-red);
+  justify-content: center;
+  
+}
+
 
 /** MOBILE **/
 
@@ -114,11 +128,17 @@ header nav a:hover {
     flex-direction: column;
   }
 
+  .filme-principal .titulo {
+    margin-top: 200px;
+  }  
+  
   .botao {
     margin-top: 5px;
-    width: 190px;
+    width: 220px;
 
   }
+
+  
 }
 
 @media screen and (min-width: 1000px){
